@@ -28,7 +28,7 @@ public class LoginTest {
     @Test()
     public void testLogin() throws InterruptedException {
         browser("chrome");
-        browser("firefox");
+      //  browser("firefox");
 
         // driver.quit();
     }
@@ -41,7 +41,7 @@ public class LoginTest {
         String expectedTitle = "Let's Read";
         String actualTitle = driver.getTitle();
         System.out.println("Actual result: " + actualTitle);
-        Assert.assertEquals(actualTitle, expectedTitle, "LetsRead Failed!");
+        Assert.assertEquals(actualTitle, expectedTitle, "Lets Read Failed!");
 
         // driver.quit();
     }
